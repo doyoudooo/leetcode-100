@@ -1,0 +1,15 @@
+\usepackage{xeCJK}
+% \setCJKmainfont{Microsoft YaHei UI} % 尝试这个，如果不行可以换成 SimSun 或其他已安装的中文字体
+% \setCJKsansfont{Microsoft YaHei UI}
+% \setCJKmonofont{Microsoft YaHei UI} 
+% 如果上面的字体还不行，可以试试更通用的 Noto 字体 (如果已安装)
+% \setCJKmainfont{Noto Serif CJK SC} 
+% \setCJKsansfont{Noto Sans CJK SC}
+% \setCJKmonofont{Noto Mono CJK SC}
+% 宋体
+\setCJKmainfont{SimSun}
+\setCJKsansfont{SimSun}
+\setCJKmonofont{SimSun}
+
+% Get-ChildItem *.md | ForEach-Object { pandoc $_.FullName --pdf-engine=xelatex -H header.tex -o "$($_.DirectoryName)\$($_.BaseName).pdf" }
+% 使用方法
